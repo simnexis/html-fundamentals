@@ -1,12 +1,28 @@
-﻿# 🌐 HTML Fundamentals
+﻿# HTML Fundamentals Project
 
 > **A structured, standards-compliant guide to modern HTML5 semantic markup, forms, accessible tables, multimedia embedding, and CSS layout.**
 
 ---
 
-## 📌 Repository Overview
+## 📌 Overview
+This project demonstrates core HTML concepts through structured examples and practical implementation. It is intended for learning, revision, and interview preparation. It provides a foundational navigation hub in `index.html` connecting to dedicated topic pages with consistent navigation and shared styling in `css/style.css`.
 
-This repository demonstrates modern semantic HTML5 and CSS fundamentals through structured, accessible, and standards-compliant templates. It provides a foundational navigation hub in `index.html` connecting to dedicated topic pages with consistent navigation and shared styling in `css/style.css`.
+---
+
+## ✨ Features
+- HTML5 document structure and metadata standards
+- Semantic text formatting elements
+- Ordered, unordered, and description lists
+- Accessible tabular data with headers and cell spans
+- Forms with diverse input types and HTML5 validation
+- Native media integration (images, audio, video)
+- Semantic HTML landmarks (`header`, `nav`, `main`, `section`, `article`, `footer`)
+
+---
+
+## 🛠️ Technologies Used
+- **HTML5**
+- **CSS3**
 
 ---
 
@@ -31,38 +47,48 @@ html-fundamentals/
 
 ---
 
-## 🔬 Topics & Standards Demonstrated
-
-1. **Semantic HTML5 Landmarks**: Utilizing `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, and `<footer>` for search-engine accessibility and screen-reader hierarchy.
-2. **Accessible Forms & Validation**: Implementing `<label for="...">`, pattern constraints, required indicators, and diverse HTML5 input types (`email`, `number`, `date`, `radio`, `checkbox`).
-3. **Structured Tabular Data**: Clean table layouts with scope headers (`scope="col"`), `<caption>` tags, and column spanning (`colspan` / `rowspan`).
-4. **Clean CSS Styling**: Shared styling in `css/style.css` establishing responsive flexbox/grid containers, typography scales, and clean button transitions.
+## 🔬 Topics Covered
+- **HTML Basics**: Document structure, DOCTYPE, meta tags, headings, paragraphs
+- **Text Formatting**: Bold, italic, strikethrough, subscript, superscript, blockquotes, code
+- **Lists**: Ordered, unordered, nested, and definition description lists
+- **Tables**: Accessible tables with `thead`, `tbody`, `th[scope]`, and caption
+- **Forms**: Diverse inputs (`text`, `email`, `number`, `radio`, `checkbox`, `date`), fieldsets, and validation
+- **Media**: Native embedding with `<img>`, `<audio>`, `<video>`, and accessible fallbacks
+- **Semantic HTML**: Landmark elements (`header`, `nav`, `main`, `article`, `section`, `aside`, `footer`)
 
 ---
 
-## 🚀 Viewing the Project
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/simnexis/html-fundamentals.git
+   ```
+2. Open `index.html` in any web browser:
+   ```bash
+   # On Windows PowerShell
+   Start-Process index.html
 
-Simply open `index.html` in any modern web browser:
+   # Or serve locally via Python
+   python -m http.server 8080
+   ```
+3. Alternatively, use the **Live Server** extension in Visual Studio Code.
 
-```bash
-# On Windows PowerShell
-Start-Process index.html
+---
 
-# Or serve locally using Python
-python -m http.server 8080
-```
-
-Then navigate to `http://localhost:8080` to explore all pages through the interactive hub.
+## 🎯 Skills Demonstrated
+- Structured and semantic HTML5 development
+- Search-engine and accessibility friendly markup
+- Multi-page navigation and clean directory routing
+- Responsive CSS layouts with Flexbox and Grid
+- Clean code conventions and documentation
 
 ---
 
 ## 📄 License
-
-This repository is distributed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
 ## 👩‍💻 Author
-
-**Simran Gupta**
+**Simran Roshan Gupta**
 - GitHub: [@simnexis](https://github.com/simnexis)
