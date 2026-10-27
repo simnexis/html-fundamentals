@@ -1,67 +1,68 @@
-# HTML Fundamentals 🌐
+﻿# 🌐 HTML Fundamentals
 
-This repository contains basic HTML programs and examples created to understand
-and practice the core concepts of HTML. The focus is on learning how web pages
-are structured using standard HTML elements.
+> **A structured, standards-compliant guide to modern HTML5 semantic markup, forms, accessible tables, multimedia embedding, and CSS layout.**
 
-## Purpose of This Repository
-- Learn the structure of web pages using HTML
-- Understand commonly used HTML tags and elements
-- Practice creating simple static web pages
-- Build a foundation for CSS and JavaScript
+---
 
-## Topics Covered
+## 📌 Repository Overview
 
-### HTML Basics
-- Structure of an HTML document
-- Head and body tags
-- Headings and paragraphs
-- Line breaks and horizontal rules
+This repository demonstrates modern semantic HTML5 and CSS fundamentals through structured, accessible, and standards-compliant templates. It provides a foundational navigation hub in `index.html` connecting to dedicated topic pages with consistent navigation and shared styling in `css/style.css`.
 
-### Text and Formatting
-- Bold, italic, and underline text
-- Superscript and subscript
-- Quotations and code formatting
+---
 
-### Links and Media
-- Anchor tags (links)
-- Images and image attributes
-- Audio and video embedding (basic)
+## 🗂️ Project Structure
 
-### Lists
-- Ordered lists
-- Unordered lists
-- Description lists
+```text
+html-fundamentals/
+├── index.html                  # Central hub with navigation cards to all topic pages
+├── css/
+│   └── style.css               # Shared CSS styling (typography, cards, layout, responsive design)
+├── pages/
+│   ├── html-introduction.html  # Document structure (DOCTYPE, html, head, body, meta, headings)
+│   ├── html-text-formatting.html # Semantic text tags (strong, em, mark, code, pre, sub, sup)
+│   ├── links_images.html       # Hyperlinks, image optimization, alt attributes, anchor targets
+│   ├── html-lists.html         # Ordered, unordered, and definition description lists
+│   ├── html-tables.html        # Accessible tabular data with thead, tbody, tfoot, th, td
+│   ├── html-forms.html         # Form controls, input validation, labels, fieldsets & buttons
+│   ├── html-media.html         # Native HTML5 audio, video embedding & responsive media tags
+│   └── semantic.html           # Semantic landmark layout (header, nav, main, article, section, footer)
+└── assets/                     # Media asset directories (images, audio, video)
+```
 
-### Tables
-- Table structure (table, tr, th, td)
-- Table borders and alignment
-- Basic table formatting
+---
 
-### Forms
-- Input types (text, password, email, number, etc.)
-- Radio buttons and checkboxes
-- Dropdown lists (select)
-- Textarea and buttons
-- Basic form validation using HTML attributes
+## 🔬 Topics & Standards Demonstrated
 
-### Semantic HTML
-- Header, footer, section, article
-- Nav and main elements
-- Importance of semantic structure
+1. **Semantic HTML5 Landmarks**: Utilizing `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, and `<footer>` for search-engine accessibility and screen-reader hierarchy.
+2. **Accessible Forms & Validation**: Implementing `<label for="...">`, pattern constraints, required indicators, and diverse HTML5 input types (`email`, `number`, `date`, `radio`, `checkbox`).
+3. **Structured Tabular Data**: Clean table layouts with scope headers (`scope="col"`), `<caption>` tags, and column spanning (`colspan` / `rowspan`).
+4. **Clean CSS Styling**: Shared styling in `css/style.css` establishing responsive flexbox/grid containers, typography scales, and clean button transitions.
 
-## How to View the Files
-- Open any `.html` file in a web browser  
-  **or**
-- Use a live server extension in a code editor
+---
 
-## Skills Demonstrated
-- Understanding of HTML document structure
-- Proper use of HTML elements and attributes
-- Creation of simple static web pages
-- Semantic and readable markup
+## 🚀 Viewing the Project
 
-## Future Improvements
-- Add CSS for styling and layout
-- Introduce responsive design basics
-- Add JavaScript for interactivity
+Simply open `index.html` in any modern web browser:
+
+```bash
+# On Windows PowerShell
+Start-Process index.html
+
+# Or serve locally using Python
+python -m http.server 8080
+```
+
+Then navigate to `http://localhost:8080` to explore all pages through the interactive hub.
+
+---
+
+## 📄 License
+
+This repository is distributed under the [MIT License](LICENSE).
+
+---
+
+## 👩‍💻 Author
+
+**Simran Gupta**
+- GitHub: [@simnexis](https://github.com/simnexis)
